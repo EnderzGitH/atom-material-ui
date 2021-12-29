@@ -1,0 +1,9 @@
+import sys
+
+class Ps1(object):
+  def __init__(self):
+    self.p = 0
+
+  def __str__(self):
+    self.p += 1
+    return '[{}]>>> '.format(self.p)
